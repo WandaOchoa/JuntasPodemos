@@ -1,0 +1,92 @@
+/* Estilos para la barra de navegación */
+/* Estilos para la barra de navegación */
+.barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #87CEFA, #E6E6FA, #cd9ae8); /* Tonos celestes, lavanda y lila */
+    padding: 15px;
+    color: white;
+  }
+  
+  .izquierda ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .izquierda li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .izquierda li.proyectos ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #87CEFA;
+    display: none;
+    line-height: 2;
+
+  }
+  
+  .izquierda li.proyectos:hover ul {
+    display: block;
+  }
+  
+  .izquierda a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .derecha button {
+    background-color: #c885ec; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .derecha button:hover {
+    background-color: #c26aebdf; 
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-image: url('Images/Backgroundpaginablancoynegro.png'); /* Cambia la ruta a la ubicación de tu imagen */
+    background-size: cover;
+    color: white;
+    text-align: left;
+    padding: 100px 0; /* Ajusta el espaciado superior e inferior según sea necesario */
+    height: 400px;
+    line-height: 3;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+    
+    
+  }
+  
+  .encabezado {
+    padding-left: 50px; /* Ajusta el espaciado izquierdo según sea necesario */
+  }
+  
+  .encabezado h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .encabezado p {
+    font-size: 18px;
+  }
+  
+  /* Estilos para el contenido principal y pie de página (footer) */
+  main {
+    /* Estilos para el contenido principal */
+  }
+  
+  footer {
+    /* Estilos para el pie de página */
+  }
+  
